@@ -1,5 +1,14 @@
 // TEA5767 Example
 //download library http://playground.arduino.cc/Main/TEA5767Radio
+/*
+         TEA5767
+         _______
+    SDA-|@      |-ANT
+    SCL-|       |-MPXO
+    GND-|       |-R OUT
+     NC-|       |-L OUT
+    VCC-|_______|-GND
+*/
 
 #include <Wire.h>
 #include <TEA5767Radio.h>
